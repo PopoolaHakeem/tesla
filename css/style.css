@@ -1,4 +1,4 @@
-body,
+
 html {
   height: 100%;
   width: 100%;
@@ -46,13 +46,12 @@ a {
   justify-content: space-between;
   padding: 0 30px;
   align-items: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .tesla-wordmar {
   height: 50px;
   width: 170%;
-  /* background-color: white; */
 }
 .more {
   display: flex;
@@ -119,6 +118,10 @@ a {
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
+}
+
+.main-container {
+  overflow: hidden;
 }
 
 /* Model Y section */
