@@ -25,14 +25,9 @@
   .main-menu {
     background-color: #f4f4f4;
     padding: 0px 20px 0 0 !important;
-    position: sticky !important;
+    /* position: sticky !important; */
     
   }
-
-  /* .tesla-wordmar {
-    height: 50px;
-    width: 170px;
-  } */
 
   .menu-icon {
     display: flex !important;
@@ -101,7 +96,7 @@
   }
 
   .privacy a {
-    padding: 14px 3px !important;
+    padding: 14px 2px !important;
   }
 }
 
