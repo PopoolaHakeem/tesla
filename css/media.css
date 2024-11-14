@@ -1,5 +1,4 @@
 @media only screen and (max-width: 600px) {
-  
   h1 {
     font-size: 40px;
   }
@@ -21,12 +20,18 @@
     font-size: 15px !important;
     display: none !important;
   }
+  .learn-more {
+    padding: 10px 0 !important;
+  }
+  .learn-more a:hover {
+    color: black;
+    text-decoration: underline 2px solid;
+  }
 
   .main-menu {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4 !important;
     padding: 0px 20px 0 0 !important;
     /* position: sticky !important; */
-    
   }
 
   .menu-icon {
