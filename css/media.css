@@ -86,22 +86,38 @@
     font-size: 12px;
   }
 
+  .terms {
+    background-color: #f4f4f4 !important;
+  }
   .term-p {
     font-size: 12px !important;
+    color: #333 !important;
   }
 
-  .footer {
+  footer {
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    background-color: #f4f4f4 !important;
+    color: #333 !important;
+
+  }
+
+  footer a {
+    /* margin-bottom: 7px; */
+  }
+  .privacy { 
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-
-  .footer a {
-    margin-bottom: 7px;
+    padding-bottom: 14px;
+    
   }
 
   .privacy a {
-    padding: 14px 2px !important;
+    padding: 10px 2px !important;
+    text-align: center;
+    color: #333 !important;
+
   }
 }
 

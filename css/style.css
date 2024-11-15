@@ -433,8 +433,16 @@ a {
 }
 .p-ancor {
   text-decoration: underline;
-  color: tomato;
+  color: #333;
+  text-decoration: 0 0 3px 0 solid-bottom black ;
 }
+
+.term-p a:hover {
+  color: #333;
+  text-decoration: underline 2px solid;
+  transition-duration: 1s;
+}
+
 .terms p {
   color: rgb(240, 226, 226);
   margin: 10px 0;
@@ -464,6 +472,7 @@ footer {
   display: flex !important;
   justify-content: space-between;
 }
+
 .privacy a {
   padding: 14px 10px;
   color: rgb(240, 226, 226);
