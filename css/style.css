@@ -449,7 +449,7 @@ video {
 /* Terms and Condition */
 
 .terms {
-  background-color: black;
+  background-color: #f4f4f4;
   text-align: center;
   padding: 20px 10px;
 }
@@ -466,7 +466,7 @@ video {
 }
 
 .terms p {
-  color: rgb(240, 226, 226);
+  color: #333;
   margin: 10px 0;
 }
 
@@ -485,8 +485,7 @@ footer {
   flex-direction: column;
   align-items: center;
   padding: 0 0 50px 0;
-  background-color: black;
-  color: rgb(240, 226, 226);
+  color: #333;
 }
 
 .privacy {
@@ -496,7 +495,7 @@ footer {
 
 .privacy a {
   padding: 14px 10px;
-  color: rgb(240, 226, 226);
+  color: #333;
 }
 
 .muffin-icon {
