@@ -80,6 +80,18 @@
     padding: 12px 50px !important;
     font-size: 12px;
   }
+  .join-tesla {
+    width: 80%;
+    margin: 0 20px;
+    text-align: center;
+  }
+  .jtesla {
+    justify-content: center;
+    margin-left: 3px !important;
+  }
+  .content h3 {
+    margin-left: 29px;
+  }
 
   .shop {
     padding: 10px 100px !important;

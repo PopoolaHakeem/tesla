@@ -1,5 +1,5 @@
-
-body, html {
+body,
+html {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -46,7 +46,6 @@ a {
   z-index: 10;
   top: 0;
   left: 0;
-
 }
 .learn-more a {
   color: #333;
@@ -71,7 +70,7 @@ a {
   align-items: center;
   overflow: hidden;
   background-color: #f4f4f4;
-  margin-top: 40px  !important;
+  margin-top: 40px !important;
 }
 
 .tesla-wordmar {
@@ -99,7 +98,6 @@ a {
 .logs a {
   padding: 0px 5px;
   color: black !important;
-
 }
 
 .menu-icon {
@@ -165,7 +163,6 @@ a {
   /* justify-content: center; */
   align-items: center;
   padding: 50px 0;
-
 }
 .order-demo0 {
   display: flex;
@@ -399,16 +396,57 @@ a {
 
 /* Tesla section */
 
-
 .video-background {
   width: 100%;
-  height: 100%;
+  height:100vh;
+  position: relative;
+  background-color: red;
+}
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  align-items: start;
+  text-decoration: none;
+
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+}
+.content h3 {
+  font-size: 30px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.join-tesla {
+  color: #333;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  margin: 0px 5px;
+}
+.jtesla {
+  width: 100%;
+  display: flex;
+  margin-left: 17px;
+  align-items: center;
 }
 
 
 
 /* Terms and Condition */
-
 
 .terms {
   background-color: black;
@@ -418,7 +456,7 @@ a {
 .p-ancor {
   text-decoration: underline;
   color: #333;
-  text-decoration: 0 0 3px 0 solid-bottom black ;
+  text-decoration: 0 0 3px 0 solid-bottom black;
 }
 
 .term-p a:hover {
@@ -449,7 +487,6 @@ footer {
   padding: 0 0 50px 0;
   background-color: black;
   color: rgb(240, 226, 226);
-
 }
 
 .privacy {
@@ -466,6 +503,3 @@ footer {
   color: turquoise;
   font-size: 12px;
 }
-
-
-
