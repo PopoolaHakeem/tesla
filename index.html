@@ -17,8 +17,35 @@
     />
 
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+
+    <style>
+      .menu-icon {
+          display: none;
+      }
+
+      @media only screen and (max-width: 600px) {
+          .menu-icon {
+              display: block;
+          }
+      }
+  </style>
+
+
   </head>
+
   <body>
+  
+  <div class="mobile-nav">
+    <ul>
+      <li>Vehicle</li>
+      <li>Energy</li>
+      <li>Charging</li>
+      <li>Discover</li>
+      <li>Shop</li>
+    </ul>
+  </div>
+  
     <div class="learn-more">
       <p>0% APR available for Model and Model Y. <a href="#">Learn more</a></p>
     </div>
@@ -46,9 +73,11 @@
         <a href="#"><span class="ph--globe"></span></a>
         <a href="#"><span class="codicon--account"></span></a>
       </div>
-      <a class="menu-icon" href="#">
-        <div id="#">Menu</div>
-      </a>
+      
+        <div class="menu-icon" id="onclick">Menu</div>
+        <iconify-icon icon="iconoir:cancel" class="cancel-icon"></iconify-icon>
+  
+
     </div>
 
     <div class="main-container">
@@ -270,5 +299,10 @@
         </div>
       </footer>
     </div>
+
+
+
+
+    <script src="/jscript/script.js"></script>
   </body>
 </html>

@@ -35,13 +35,16 @@
   }
 
   .menu-icon {
-    display: flex !important;
-    font-size: medium;
+    display: block ;
+    font-size: 15px;
     color: white;
     padding: 4px 5px;
     border-radius: 4px;
     background-color: grey;
+    cursor: pointer;
+
   }
+
 
   .image1-container {
     padding-top: 100px !important;
@@ -98,26 +101,16 @@
     font-size: 12px;
   }
 
-  .terms {
-    background-color: #f4f4f4 !important;
-  }
   .term-p {
     font-size: 12px !important;
-    color: #333 !important;
   }
 
   footer {
     display: flex;
-    flex-direction: ;
-    align-items: center;
-    background-color: #f4f4f4 !important;
-    color: #333 !important;
-
+    flex-direction: column;
+    align-items: center; 
   }
 
-  footer a {
-    /* margin-bottom: 7px; */
-  }
   .privacy { 
     display: flex;
     flex-direction: column;
@@ -128,9 +121,22 @@
   .privacy a {
     padding: 5px 2px !important;
     text-align: center;
-    color: #333 !important;
-
   }
+  
+  .cancel-icon {
+  width: 100%;
+  height: 170px;
+  color: red;
+  font-size: 30px;
+  position: fixed;
+  top: 110px;
+  right: 0px;
+  display: block;
+  margin-top: 45px;
+  z-index: 100;
+}
+
+
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
