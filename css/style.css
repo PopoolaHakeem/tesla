@@ -47,6 +47,9 @@ a {
   top: 0;
   left: 0;
 }
+.learn-more p {
+  padding: 10px;
+}
 
 .learn-more a {
   color: #333;

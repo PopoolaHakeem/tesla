@@ -23,10 +23,8 @@
   /* .learn-more p {
     font-size: 2px;
   } */
-  .learn-more p {
-    padding: 10px 15px;
-    /* font-size: 10px !important; */
-    /* background-color: red; */
+  .learn-more  {
+    padding: 30px 15px;
   }
   .learn-more a:hover {
     color: black;
