@@ -63,7 +63,7 @@ a {
 
 .mobile-nav {
   width: 100%;
-  height: 390px;
+  height: 300px;
   position: fixed;
   top: 111px;
   left: 0;
@@ -72,6 +72,9 @@ a {
   border-top: 2px solid #f4f4f4;
   text-align: start;
   z-index: 50;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 
 }
 .mobile-nav a {
