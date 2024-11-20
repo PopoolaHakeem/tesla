@@ -18,34 +18,50 @@
 
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
 
-
     <style>
       .menu-icon {
-          display: none;
+        display: none;
       }
 
       @media only screen and (max-width: 600px) {
-          .menu-icon {
-              display: block;
-          }
+        .menu-icon {
+          display: block;
+        }
       }
-  </style>
-
-
+    </style>
   </head>
 
   <body>
-  
-  <div class="mobile-nav">
-    <ul>
-      <li>Vehicle</li>
-      <li>Energy</li>
-      <li>Charging</li>
-      <li>Discover</li>
-      <li>Shop</li>
-    </ul>
-  </div>
-  
+    <div class="mobile-nav">
+      <ul>
+        <li><a href="">Vehicle</a></li>
+        <li><a href="">Energy</a></li>
+        <li><a href="">Charging</a></li>
+        <li><a href="">Discover</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">We, Robot</a></li>
+        <li><a href="">Support</a></li>
+        <li>
+          <a href="">
+            <iconify-icon
+              icon="mdi:web"
+              class="account-icon"
+            ></iconify-icon>
+            UnitedStates
+          </a>
+        </li>
+        <li>
+          <a href=""
+            ><iconify-icon
+              icon="codicon:account"
+              class="account-icon"
+            ></iconify-icon
+            >  Account
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <div class="learn-more">
       <p>0% APR available for Model and Model Y. <a href="#">Learn more</a></p>
     </div>
@@ -73,17 +89,15 @@
         <a href="#"><span class="ph--globe"></span></a>
         <a href="#"><span class="codicon--account"></span></a>
       </div>
-      
-        <div class="menu-icon" id="onclick">Menu</div>
-        <iconify-icon icon="iconoir:cancel" class="cancel-icon"></iconify-icon>
-  
 
+      <div class="menu-icon" id="onclick">Menu</div>
+      <iconify-icon icon="iconoir:cancel" class="cancel-icon"></iconify-icon>
     </div>
 
     <div class="main-container">
       <!-- first section - Promo Hero -->
 
-      <div class="image0-container">
+      <div class="image0-container cancel">
         <div class="center">
           <h1>0% APR Available</h1>
         </div>
@@ -214,24 +228,23 @@
       </div>
 
       <!-- section ten - We Are Tesla -->
-       
-        <div class="video-background">
-          <video autoplay loop muted class="" width="100%" height="100%">
-            <source
-              src="./images/Homepage-We-Are-Tesla-Mobile.webm"
-              type="video/mp4"
-            />
-          </video> 
-           <div class="content">
-            <h3>We Are Tesla</h3>
 
-<div class="jtesla">
-  <div class="join-tesla">Join Tesla</div>
+      <div class="video-background">
+        <video autoplay loop muted class="" width="100%" height="100%">
+          <source
+            src="./images/Homepage-We-Are-Tesla-Mobile.webm"
+            type="video/mp4"
+          />
+        </video>
+        <div class="content">
+          <h3>We Are Tesla</h3>
 
-</div>
+          <div class="jtesla">
+            <div class="join-tesla">Join Tesla</div>
           </div>
         </div>
-       
+      </div>
+
       <!-- Terms and Conditions section -->
       <div class="terms">
         <p class="term-p">
@@ -299,9 +312,6 @@
         </div>
       </footer>
     </div>
-
-
-
 
     <script src="/jscript/script.js"></script>
   </body>

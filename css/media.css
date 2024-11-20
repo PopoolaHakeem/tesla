@@ -20,8 +20,13 @@
     font-size: 15px !important;
     display: none !important;
   }
-  .learn-more {
-    padding: 10px 0 !important;
+  /* .learn-more p {
+    font-size: 2px;
+  } */
+  .learn-more p {
+    padding: 10px 15px;
+    /* font-size: 10px !important; */
+    /* background-color: red; */
   }
   .learn-more a:hover {
     color: black;
