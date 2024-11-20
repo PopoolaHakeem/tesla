@@ -20,9 +20,7 @@
     font-size: 15px !important;
     display: none !important;
   }
-  /* .learn-more p {
-    font-size: 2px;
-  } */
+  
   .learn-more  {
     padding: 30px 15px;
   }
@@ -34,7 +32,6 @@
   .main-menu {
     background-color: #f4f4f4 !important;
     padding: 0px 20px 0 0 !important;
-    /* position: sticky !important; */
   }
 
   .menu-icon {

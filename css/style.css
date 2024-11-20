@@ -81,7 +81,7 @@ a {
 }
 .mobile-nav a:hover {
   background-color: rgb(228, 225, 222);
-  padding: 10px 50px 10px 2px;
+  padding: 13px 70px 13px 2px;
   transition: 0.2s;
 }
 .account-icon {
